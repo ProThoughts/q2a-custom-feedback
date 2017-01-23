@@ -20,7 +20,7 @@ if (!defined('QA_VERSION')) { // don't allow this page to be requested directly 
 @define( 'CFB_DIR', dirname( __FILE__ ) );
 @define( 'CFB_FOLDER', basename( dirname( __FILE__ ) ) );
 @define( 'CFB_TARGET_THEME_NAME', 'q2a-material-lite');
-@define( 'CFB_RELATIVE_PATH', '../qa-plugin/'.CFD_FOLDER.'/');
+@define( 'CFB_RELATIVE_PATH', '../qa-plugin/'.CFB_FOLDER.'/');
 
 // overrides
 qa_register_plugin_overrides('qa-custom-feedback-overrides.php');
